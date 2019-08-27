@@ -1,0 +1,219 @@
+@font-face{font-family:'Artifakt';font-style:normal;font-weight:300;src:url("https://fonts.autodesk.com/ArtifaktElement/EOT/Artifakt%20Element%20Light.eot");src:url("https://fonts.autodesk.com/ArtifaktElement/EOT/Artifakt%20Element%20Light.eot?#iefix") format("embedded-opentype"),url("https://fonts.autodesk.com/ArtifaktElement/WOFF2/Artifakt%20Element%20Light.woff2") format("woff2"),url("https://fonts.autodesk.com/ArtifaktElement/WOFF/Artifakt%20Element%20Light.woff") format("woff"),url("https://fonts.autodesk.com/ArtifaktElement/TTF/Artifakt%20Element%20Light.ttf") format("truetype")}
+@font-face{font-family:'Artifakt';font-style:normal;font-weight:400;src:url("https://fonts.autodesk.com/ArtifaktElement/EOT/Artifakt%20Element%20Regular.eot");src:url("https://fonts.autodesk.com/ArtifaktElement/EOT/Artifakt%20Element%20Regular.eot?#iefix") format("embedded-opentype"),url("https://fonts.autodesk.com/ArtifaktElement/WOFF2/Artifakt%20Element%20Regular.woff2") format("woff2"),url("https://fonts.autodesk.com/ArtifaktElement/WOFF/Artifakt%20Element%20Regular.woff") format("woff"),url("https://fonts.autodesk.com/ArtifaktElement/TTF/Artifakt%20Element%20Regular.ttf") format("truetype")}
+@font-face{font-family:'Artifakt';font-style:normal;font-weight:700;src:url("https://fonts.autodesk.com/ArtifaktElement/EOT/Artifakt%20Element%20Medium.eot");src:url("https://fonts.autodesk.com/ArtifaktElement/EOT/Artifakt%20Element%20Medium.eot?#iefix") format("embedded-opentype"),url("https://fonts.autodesk.com/ArtifaktElement/WOFF2/Artifakt%20Element%20Medium.woff2") format("woff2"),url("https://fonts.autodesk.com/ArtifaktElement/WOFF/Artifakt%20Element%20Medium.woff") format("woff"),url("https://fonts.autodesk.com/ArtifaktElement/TTF/Artifakt%20Element%20Medium.ttf") format("truetype")}
+@font-face{font-family:'Artifakt Legend';font-weight:300;src:url("https://fonts.autodesk.com/ArtifaktLegend/EOT/Artifakt%20Legend%20Light.eot");src:url("https://fonts.autodesk.com/ArtifaktLegend/EOT/Artifakt%20Legend%20Light.eot?#iefix") format("embedded-opentype"),url("https://fonts.autodesk.com/ArtifaktLegend/WOFF2/Artifakt%20Legend%20Light.woff2") format("woff2"),url("https://fonts.autodesk.com/ArtifaktLegend/WOFF/Artifakt%20Legend%20Light.woff") format("woff"),url("https://fonts.autodesk.com/ArtifaktLegend/TTF/Artifakt%20Legend%20Light.ttf") format("truetype")}
+@font-face{font-family:'Artifakt Legend';font-weight:400;src:url("https://fonts.autodesk.com/ArtifaktLegend/EOT/Artifakt%20Legend%20Regular.eot");src:url("https://fonts.autodesk.com/ArtifaktLegend/EOT/Artifakt%20Legend%20Regular.eot?#iefix") format("embedded-opentype"),url("https://fonts.autodesk.com/ArtifaktLegend/WOFF2/Artifakt%20Legend%20Regular.woff2") format("woff2"),url("https://fonts.autodesk.com/ArtifaktLegend/WOFF/Artifakt%20Legend%20Regular.woff") format("woff"),url("https://fonts.autodesk.com/ArtifaktLegend/TTF/Artifakt%20Legend%20Regular.ttf") format("truetype")}
+@font-face{font-family:'Artifakt Legend';font-weight:700;src:url("https://fonts.autodesk.com/ArtifaktLegend/EOT/Artifakt%20Legend%20Medium.eot");src:url("https://fonts.autodesk.com/ArtifaktLegend/EOT/Artifakt%20Legend%20Medium.eot?#iefix") format("embedded-opentype"),url("https://fonts.autodesk.com/ArtifaktLegend/WOFF2/Artifakt%20Legend%20Medium.woff2") format("woff2"),url("https://fonts.autodesk.com/ArtifaktLegend/WOFF/Artifakt%20Legend%20Medium.woff") format("woff"),url("https://fonts.autodesk.com/ArtifaktLegend/TTF/Artifakt%20Legend%20Medium.ttf") format("truetype")}
+
+body{
+    font-family: 'Artifakt';
+	margin:0px;
+	padding:0px;
+}
+
+.banner-back{
+    height: 585px;
+    width: 100%;
+    overflow: hidden;
+    background: url("banner.jpg");
+    background-size: 1700px auto;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-color: #1e2836;
+    margin-top: 53px;
+    position: relative;
+  }
+  .banner-overlay {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.35);
+}
+.row {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    max-width: 78em;
+    min-width: 20em;
+
+}
+.align{
+	padding:0 20px;
+}
+.section1{
+	height:550px;
+	background-color:black;
+	position:absolute;
+}
+#heading{
+	font-size:;
+}
+.grid-columns {
+    padding-left: 0;
+    padding-right: 0;
+    float: left;
+}
+.banner {
+    margin-top: 130px;
+    margin-bottom: 203px;
+    max-width: 500px;
+    padding-right: 50px;
+}
+.banner .title {
+    font-size: 30.1px;
+    line-height: 1.11;
+    color: #fff;
+    margin-top: 130px;
+    margin-bottom: 0px;
+    font-weight: 500;
+}
+
+.banner .subtitle {
+    margin-top: 9px;
+    margin-bottom: 17px;
+    font-size: 19.2px;
+    font-weight: 300;
+    line-height: 1.25;
+    color: #fff;
+}
+.row:before, .row:after {
+    content: " ";
+    display: table;
+}
+.banner-back .banner-content {
+    margin-top: 130px;
+    margin-bottom: 203px;
+    max-width: 500px;
+    padding-right: 50px;
+}
+.learn-more{
+
+}
+.banner .learn-more a {
+    font-size: 19px;
+    color: #fff;
+    margin: 0px;
+    text-transform: uppercase;
+    border: none;
+    text-decoration: none;
+}
+.banner .learn-more a :hover{
+        color: #777;
+    border-bottom: 1px dashed #777;
+
+}
+.banner .learn-more i.icon-arrow-button {
+    font-size: 16px;
+    left: 5px;
+    position: relative;
+}
+.banner .wp-hr {
+    width: 100%;
+    height: 1px;
+    background-color: #bbb;
+    margin-top: 24px;
+    margin-bottom: 26px;
+}
+.banner .cta {
+    padding-left: 25px;
+    position: relative;
+    line-height: 1.2;
+}
+.banner .cta a {
+    font-size: 16px;
+    color: #0696d7;
+    border: none;
+    text-decoration: none;
+}
+
+.banner .cta .icon-cta-go-arrow {
+    position: absolute;
+    top: 9px;
+    left: 4px;
+    font-size: 14px;
+}
+
+@media only screen and (min-width: 64.063em){
+.large-six {
+    position: relative;
+    width: 50%;
+}
+
+.grid-columns {
+    padding-left: 0;
+    padding-right: 0;
+    float: left;
+
+
+}
+.banner .cta {
+    width: 100%;
+    max-width: 360px;
+}
+.banner .title {
+    color: #fff;
+}
+.banner .subtitle {
+    color: #fff;
+}
+.banner .learn-more a {
+    color: #fff;
+
+}
+.banner .wp-hr {
+    background-color: #bbb;
+}
+.banner .cta a {
+    color: #0696d7;
+}
+.banner-overlay {
+    display: none;
+}
+}
+@media only screen and (max-width: 40.063em){
+    .banner-back {
+    
+    height: auto;
+    background-position: -742px -3px;
+}
+}
+@media only screen and (min-width: 40.063em){
+.medium-6 {
+    position: relative;
+    width: 100%;
+}
+
+.banner .title {
+    font-size: 24px;
+    line-height: 1.16;
+    margin-top: 115px;
+}
+.banner-back .banner-content {
+    margin-top: 102px;
+    margin-bottom: 0px;
+    padding-right: 0px;
+}
+.banner-back .subtitle {
+    font-size: 15.8px;
+    line-height: 1.27;
+    margin-top: 6px;
+    margin-bottom: 14px;
+}
+
+}
+
+@media only screen and (max-width: 64.063em) and (min-width: 40.063em){
+    .banner .cta .icon-cta-go-arrow {
+    position: absolute;
+    top: 6px;
+    left: 4px;
+    font-size: 11px;
+}
+.banner-back {
+    background-position: calc(50%) 0%;
+    height: 576px;
+}
+}
